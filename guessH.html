@@ -1,0 +1,36 @@
+<!--Guess The Number-->
+<!--An Interesting Game designed using HTML,CSS,JavaScript . I think you will Enjoy it-->
+<!--Biswojit Mohapatra-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS THE NUMBER</title>
+    <link rel="stylesheet" href="guessC.css"><!--Adding CSS-->
+</head>
+<body>
+    <div class="main">
+        <h2 class="upper">GUESS BISWOJIT'S FAVORITE NUMBER</h2>
+        <div class="info"><!--General Information to play the game-->
+            <p>** Try To Guess a Number between 10 to 100 (both inclusive)</p>
+            <p>** You have 8 Attempts to Guess Biswojit's Favorite Number</p>
+        </div>
+        <div class="middle">
+            <form class="wform"><!--Input Form-->
+                <label2 for="guessField" id="guess">Guess a number : </label>
+                <input type="text" id="guessField" class="guessField">
+                <br>
+                <input type="submit" id="sub" value="SUBMIT GUESS" class="guessSubmit">
+            </form>
+            <div class="displayresult"><!--Displaying Result-->
+                <p>Previous Guesses :<span class="Pguess"></span></p>
+                <p>Remaining Guess : <span class="Rguess">8</span></p>
+                <p class="result"></p>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="guessJ.js"></script><!--Adding JS file-->
+</html>

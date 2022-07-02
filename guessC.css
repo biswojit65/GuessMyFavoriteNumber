@@ -1,0 +1,82 @@
+html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aqua;
+}
+.main{
+    background-color: rgba(192, 152, 179, 0.829);
+    max-width: 750px;
+    min-width: 480px;
+    margin:  auto;
+}
+.Rguess{
+    color: white;
+    padding: 6px;
+}
+.Pguess{
+    color:white;
+    padding: 6px;
+}
+#sub{
+    background-color: aqua;
+    color:darkmagenta;
+    width: 530px;
+    height: 30px;
+    border-radius: 7px;            /*Designing submit Button*/
+    font-size: 15px;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#guessField{
+    color: #000;
+    width: 295px;                  /* Desining Input Field */
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.middle{
+    box-sizing: border-box;
+    text-align: center;
+    width: 750px;
+    height: 500px;
+    background-color: #366286;
+    color: #fff;
+    font-size: 30px;
+}
+.Pguess {
+    background-color: #12aab4;
+}
+.upper{
+   background-color: rgb(151, 22, 93);
+   color: #fff;
+   text-align: center;
+   border:3px solid rgb(128, 11, 236);
+   border-radius: 3px;
+   padding: 5px;
+   word-spacing: 5px;
+   font-family: cursive;
+}
+button {
+    background-color: purple;
+    color: #fff;
+    width: 250px;
+    height: 20px;
+    border-radius: 25px;         /*Designing newGame button*/
+    font-size: 30px;
+    border-style: none;
+    margin-top: 30px;
+    /* margin-left: 50px; */
+}
+
+.info{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 3px;
+    background-color: rgb(211, 133, 16);
+    padding:15px;
+}
