@@ -42,7 +42,7 @@ function validatecurrGuess(currguess){
 function checkGuess(currguess){
     if(currguess==randNum){
         //Guess the Number Correctly
-        displayresult(`🥳🎉🥳Congratulation !!! You guess Biswojit's favorite Number correctly`); 
+        displayresult(`🥳🎉🥳Congratulation !!! You guess Biswojit's favourite Number correctly`); 
         endplay();
     }else if(currguess<randNum){
         //Chosen number is lower than  than Original Number
