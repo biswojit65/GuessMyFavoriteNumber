@@ -1,1 +1,1 @@
-# GuessMyFavoriteNumber
+# GuessMyFavouriteNumber
